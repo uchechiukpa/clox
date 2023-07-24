@@ -4,7 +4,7 @@
 
 
 
-void initvlaueArray(ValueArray* array){
+void initValueArray(ValueArray* array){
     array->values = NULL;
     array->capacity = 0;
     array->count = 0;
@@ -27,6 +27,6 @@ void freeValueArray(ValueArray* array){
 }
 
 
-void prinrValue(Value value){
+void printValue(Value value){
     printf("%g", value);
 }
