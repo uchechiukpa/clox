@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "chunk.h": "c",
+        "__locale": "c",
+        "chrono": "c",
+        "complex": "c",
+        "functional": "c",
+        "locale": "c",
+        "__config": "c",
+        "atomic": "c",
+        "compare": "c",
+        "random": "c",
+        "*.tcc": "c",
+        "optional": "c",
+        "algorithm": "c",
+        "limits": "c",
+        "numeric": "c",
+        "ostream": "c",
+        "streambuf": "c",
+        "system_error": "c"
+    }
+}
