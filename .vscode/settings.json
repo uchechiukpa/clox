@@ -17,6 +17,7 @@
         "numeric": "c",
         "ostream": "c",
         "streambuf": "c",
-        "system_error": "c"
+        "system_error": "c",
+        "cstdint": "c"
     }
 }
