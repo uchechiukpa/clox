@@ -4,12 +4,11 @@
 
 int main(int argc, const char* argv[]){
     Chunk chunk;
-    initChunk(&chunk); 
+    initChunk(&chunk); // set chunk to beginning values
 
-    int constant = addConstant(&chunk, 1.2);
+    int constant = addConstant(&chunk, 1.2); // add a constant to our constant array
     writeChunk(&chunk, OP_CONSTANT, 123);
     writeChunk(&chunk, constant, 123);
-
     writeChunk(&chunk, OP_RETURN, 123);
     disassembleChunk(&chunk, "test chunk");
     freeChunk(&chunk);

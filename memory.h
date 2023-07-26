@@ -4,7 +4,7 @@
 #include "common.h"
 
 #define GROW_CAPACITY(capacity) \
-    (capacity < 8 ? 8 : capacity * 2)
+    (capacity < 8 ? 8 : capacity * 2) // This will increase the size on the bytes assigned to the capacity variable
 
 
 #define GROW_ARRAY(type, pointer, oldCount, newCount) \

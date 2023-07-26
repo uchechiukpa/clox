@@ -9,11 +9,16 @@ typedef enum {
     OP_RETURN,
 } OpCode;
 
+
+typedef  struct {
+    int chunk;
+    int lineNumber;
+} Line;
+
 typedef struct {
     int count;
     int capacity;
     uint8_t* code;
-    int* lines;
     ValueArray constants;
 } Chunk;
 
